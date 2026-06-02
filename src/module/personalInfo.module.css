@@ -1,0 +1,31 @@
+.stepDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-size: 18px;
+}
+.infoTab {
+  background-color: white;
+  color: black;
+}
+
+.tabContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+.formDiv {
+  width: 100%;
+  height: 50vh;
+}
+
+.displayDetails {
+  width: 500px;
+  height: 200px;
+  margin: 15px auto;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}

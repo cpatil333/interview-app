@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+tbody tr td {
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+input {
+  width: 50%;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+}

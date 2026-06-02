@@ -1,0 +1,23 @@
+.progressbar {
+  height: 25px;
+  width: 50%;
+  border-radius: 50px;
+  border: 1px solid #000;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+.progressbarfill {
+  height: 100%;
+  border-radius: 50px;
+  background-color: green;
+  transition: width 0.5 ease-out;
+  color: #fff;
+}
+.btn {
+  padding: 5px;
+  width: 80px;
+  background-color: green;
+  color: black;
+  font-weight: bold;
+}
