@@ -1,0 +1,54 @@
+table {
+  margin-top: 10px;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+thead {
+  background-color: black;
+  color: white;
+}
+tbody tr td {
+  border: 1px solid gray;
+}
+button {
+  width: 60px;
+  padding: 5px;
+  overflow: none;
+  margin: 1px;
+}
+.btn {
+  float: left;
+  top: 0;
+  width: 150px;
+  padding: 5px;
+  overflow: none;
+  margin: 5px;
+}
+
+input {
+  width: 250px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin-bottom: 5px;
+}
+.search {
+  width: 450px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+select {
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
