@@ -1,0 +1,124 @@
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.productInfo {
+  margin-top: 10px;
+  gap: 5px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.image {
+  width: 150px;
+  margin: 0 auto;
+  border: 1pd solid gray;
+}
+.productGrid img {
+  margin-top: 10px;
+  width: 150px;
+}
+
+.productTitle {
+  font-size: 15px;
+  color: black;
+}
+
+.productDescription {
+  font-size: 18px;
+  color: black;
+}
+.addCart {
+  width: 150px;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: chartreuse;
+  color: black;
+}
+
+.itemCarts {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 50px;
+  width: 700px;
+  height: auto;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+}
+
+.subItems {
+  display: flex;
+  flex-direction: column;
+}
+.subItems img {
+  margin-top: 10px;
+  width: 150px;
+}
+
+.subItemsTitle {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: left;
+  margin-left: 50px;
+}
+.removeBtn {
+  width: 80px;
+  padding: 5px;
+  height: 40px;
+  background-color: brown;
+  margin-left: 10px;
+}
+.productDetails {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 50px;
+  width: 700px;
+  height: auto;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+}
+
+.detailImage {
+  width: 150px;
+  margin: 0 auto;
+  border: 1pd solid gray;
+}
+.detailImage img {
+  margin-top: 10px;
+  width: 150px;
+}
+
+.productBtn {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.singleProductTitle {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.singleProductDescription {
+  margin-left: 14px;
+  width: 640px;
+  text-align: justify;
+}
+.plusminus {
+  width: 35px;
+  padding: 5px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+}

@@ -1,26 +1,34 @@
+//import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import ExpenseTrackerPage from "./pages/ExpenseTrackerPage";
-import TrackerList from "./components/ExpensesTracker/TrackerList";
-import TrackerForm from "./components/ExpensesTracker/TrackerForm";
+import ProductList from "./components/E-Commerce/ProductList";
+import AppLayout from "./components/E-Commerce/AppLayout";
+import CartItems from "./components/E-Commerce/CartItems";
+import ProductDetails from "./components/E-Commerce/ProductDetails";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <ExpenseTrackerPage />,
-    },
-    {
-      path: "/epenses-tracker",
-      element: <TrackerList />,
-    },
-    {
-      path: "/tracker-form",
-      element: <TrackerForm />,
-    },
-    {
-      path: "/tracker-form/:trackId",
-      element: <TrackerForm />,
+      element: <AppLayout />,
+      children: [
+        {
+          path: "/",
+          element: <ProductList />,
+        },
+        {
+          path: "/product-list",
+          element: <ProductList />,
+        },
+        {
+          path: "/cart-items",
+          element: <CartItems />,
+        },
+        {
+          path: "/prodct-details/:id",
+          element: <ProductDetails />,
+        },
+      ],
     },
   ]);
   return (
